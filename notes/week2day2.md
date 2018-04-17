@@ -31,7 +31,7 @@ y = ["Simon", "Hello", True, 10]
 1. The size of a list does not affect the average access time in the list
 2. The average access time ay any location within a list is the same, regardless of its location in the list
 
-We load XML data into turtle & display on a tkinter windowaccess
+We load XML data into turtle & display on a tkinter window
 
 ## Big-Oh Notation
 Used as a way to measure the efficiency of our algorithms
