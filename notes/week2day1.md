@@ -51,7 +51,7 @@ Layout Manager handles
 Extensible Markup Language
 ```XML
 <GraphicsCommands>
-<Command color = '#000000'>BeginFill>
+<Command color = '#000000'>BeginFill</Command>
 ```
 
 
