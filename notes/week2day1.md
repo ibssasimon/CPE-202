@@ -49,9 +49,33 @@ Layout Manager handles
 
 ## XML
 Extensible Markup Language
+
+* Meta language for data description. Backwards compatible
 ```XML
 <GraphicsCommands>
 <Command color = '#000000'>BeginFill</Command>
+
+<MyTagName></MyTagName>
+```
+
+XML has a top level tag with children nodes
+```XML
+<GraphicsCommand>
+    <Command></Command>
+    <Command></Command>
+</GraphicsCommand>
+```
+### Reading XML
+import xml.dom.minidom
+* XML
+    * dom.py (module)
+        * minidom (function)
+
+
+### Code to extract commands
+```XML
+xmldoc = xml.doc.minidom("circle-example.xml")
+graphicsCommands = xmldoc.getElementsByTagName("GraphicsCommands")[0]
 ```
 
 
