@@ -113,3 +113,5 @@ func2 is considered a local variable of func1
 * global
 * built-in
 
+LOOKUP: Activation record -- relevant to scope
+
