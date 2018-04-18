@@ -27,9 +27,7 @@ def add3Numbers(a, b, c):
     
 ```
 As params get larger, operations get larger.
-First function
 * T(n) = 1
-Second function
 * T(n) = 2
 
 
