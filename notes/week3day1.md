@@ -107,3 +107,9 @@ def func1(zval):
 ```
 func2 is considered a local variable of func1
 
+### Scope levels
+* local
+* enclosed
+* global
+* built-in
+
