@@ -59,3 +59,4 @@ def recLinearSearch(A, n, i, x):
     return recLinearSearch(A, n, i + 1, x) #makes sure we increment i up to n
 
 ```
+This also runs in linear time. Recursive function albeit is a little slower
