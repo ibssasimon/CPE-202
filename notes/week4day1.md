@@ -75,6 +75,7 @@ minimax(board, player)
 * X = computer
 * O = human
     * try to maximize the score for computer
+    * try to minimize the score for human
 1. Base case  - when computer wins (1)
 2. Base case - when human wins (-1)
 3. Base case - when draw occurs (0)
@@ -88,5 +89,13 @@ computerTurn() -- this is the top level recursive function to determine the best
 * calls minimax, and takes the max value, or best position
 
 Test cases are written when the correct value is returned for the board state
+
+
+## Selection Sort
+
+Runtime is O(n^2) -- this is generally not a good idea with large data sets.
+
+It is a set of O(n) * O(n) = O(n^2)
+
 
 
