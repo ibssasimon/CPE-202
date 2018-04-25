@@ -15,7 +15,7 @@ def iterRevList(list):
     return acccumulator
 ```
 Runs in linear time
-What does the recursive reverse list solution look like?
+* What does the recursive reverse list solution look like?
 
 ``` python
 def recursiveRevList(list):
@@ -60,3 +60,33 @@ def recLinearSearch(A, n, i, x):
 
 ```
 This also runs in linear time. Recursive function albeit is a little slower
+
+
+## Minimax
+Tic tac toe is a 2 player, perfect information game. This is a deterministic game, and the game is considered to be solved when there are 3 consecutives Xs and Os.
+
+* Make all the best calls for computer against human
+
+``` python
+minimax(board, player)
+
+
+```
+* X = computer
+* O = human
+    * try to maximize the score for computer
+1. Base case  - when computer wins (1)
+2. Base case - when human wins (-1)
+3. Base case - when draw occurs (0)
+
+Try to maximize computer, minimize human
+
+### Using recursion!
+* The base case occurs when we have a full board
+
+computerTurn() -- this is the top level recursive function to determine the best move
+* calls minimax, and takes the max value, or best position
+
+Test cases are written when the correct value is returned for the board state
+
+
