@@ -64,6 +64,7 @@ def __add__(item, items):
             
 ```
 
+## Read up on hashtables from textbook! Radix and infix due Thurs 
 
 
     
